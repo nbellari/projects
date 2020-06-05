@@ -1,4 +1,4 @@
-new-coder-repo
-==============
+Projects
+========
 
-Repo to house the coding that will be done as part of new coder tutorials
+Repo to house the coding that will be done as part of DIY projects
