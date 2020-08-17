@@ -1,5 +1,5 @@
 all:  main.o hash_table.o
-	gcc -o a.out main.o hash_table.o
+	gcc -o a.out main.o hash_table.o -lm
 
 main.o: main.c
 	gcc -g -c main.c -o main.o

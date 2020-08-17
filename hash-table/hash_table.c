@@ -3,7 +3,8 @@
 #include <stdint.h>
 #include <string.h>
 #include <assert.h>
-
+#include <math.h>
+#include <stdbool.h>
 #include "hash_table.h"
 
 #define HT_DEFAULT_BUCKET_SIZE  512
@@ -21,6 +22,33 @@ typedef struct {
     long  ht_count;
     ht_entry_t **ht_buckets; 
 } htable_t;
+
+bool
+is_prime(long x)
+{
+    long sqrt_x;
+
+    if (x < 2) return false;
+    if (x < 4) return true;
+    if (x%2 == 0) return false;
+
+    sqrt_x = floor(sqrt((double)x));
+    for (long i=3; i<sqrt_x; i++) {
+        if (x%i == 0) return false;
+    }
+
+    return true;
+}
+
+long
+next_prime(long x)
+{
+    while (!is_prime(x)) {
+        x++;
+    }
+
+    return x;
+}
 
 /* These functions do not care about buckets, just calculates the hash
  * and returns the same.
@@ -192,9 +220,8 @@ hash_table_create(long n_buckets)
 {
     htable_t *table;
 
-    if (!n_buckets) {
-        n_buckets = HT_DEFAULT_BUCKET_SIZE;
-    }
+    n_buckets = n_buckets ? next_prime(n_buckets) :
+                     next_prime(HT_DEFAULT_BUCKET_SIZE);
 
     table = calloc(1, sizeof(htable_t));
     if (table == NULL) {
