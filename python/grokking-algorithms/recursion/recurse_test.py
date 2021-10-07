@@ -68,5 +68,46 @@ class max_test(unittest.TestCase):
         max = recurse.max_recurse(list)
         self.assertEqual(-12, max)
 
+class test_binary(unittest.TestCase):
+    def test_binary_empty(self):
+        list = []
+        result = recurse.binary_search(list, 1)
+        self.assertEqual(None, result)
+    
+    def test_binary_one_present(self):
+        list = [1]
+        result = recurse.binary_search(list, 1)
+        self.assertEqual(0, result)
+
+    def test_binary_one_absent(self):
+        list = [1]
+        result = recurse.binary_search(list, 2)
+        self.assertEqual(None, result)
+
+    def test_binary_two_present1(self):
+        list = [10, 20]
+        result = recurse.binary_search(list, 10)
+        self.assertEqual(0, result)
+
+    def test_binary_two_present2(self):
+        list = [11, 33]
+        result = recurse.binary_search(list, 33)
+        self.assertEqual(1, result)
+
+    def test_binary_two_absent(self):
+        list = [10, 34]
+        result = recurse.binary_search(list, 22)
+        self.assertEqual(None, result)
+
+    def test_binary_many_none(self):
+        list = [1, 2, 3, 4, 5, 6]
+        result = recurse.binary_search(list, 9)
+        self.assertEqual(None, result)
+
+    def test_binary_many_present(self):
+        list = [-10, -4, -1, 0, 4, 12, 56, 98]
+        result = recurse.binary_search(list, -1)
+        self.assertEqual(2, result)
+
 if __name__ == "__main__":
     unittest.main()
