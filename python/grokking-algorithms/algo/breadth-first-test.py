@@ -1,6 +1,6 @@
 import unittest
 import bfs
-from graph import Graph
+from ds.graph import Graph
 
 
 

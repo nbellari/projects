@@ -1,5 +1,5 @@
 import unittest
-from graph import Graph
+from ds.graph import Graph
 
 class graph_test(unittest.TestCase):
     def test_graph_random1(self):

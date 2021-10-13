@@ -1,4 +1,4 @@
-from graph import Graph
+from ds.graph import Graph
 from collections import deque
 
 def breadth_first_search(g, begin, end):
