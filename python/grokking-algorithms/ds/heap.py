@@ -16,14 +16,14 @@ class Heap:
         if not self.cmp:
             return
         self.array.append(elem)
-        self.heapUp()
+        self.heapUp() # Only the last element needs to find its place
 
     def deque(self):
         if not self.cmp:
             return        
         elem = self.array[0]
         self.array[0] = self.array.pop() #replace with last element
-        self.heapDown()
+        self.heapDown() # Only the root needs to find its place
 
     def heapUp(self):
         pass
@@ -32,7 +32,9 @@ class Heap:
         pass
 
     def heapify(self):
-        pass
+        if not self.list or len(self.list) == 1:
+            return
+        
 
     def __print__(self):
         pass
