@@ -37,3 +37,7 @@ nosetests.xml
 .pydevproject
 
 __pycache__
+.mypy_cache
+
+# Rust related
+target
