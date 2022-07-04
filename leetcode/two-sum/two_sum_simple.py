@@ -8,7 +8,7 @@ def twoSum(nums: List[int], target: int) -> List[int]:
     # just in case there is no match
     return [-1, -1]
 
-list1 = [2]
-target = 26
+list1 = [1, 5, 10, 11]
+target = 21
 
 print (twoSum(list1, target))

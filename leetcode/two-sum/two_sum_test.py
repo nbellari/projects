@@ -7,7 +7,7 @@ class TwoSumTest(unittest.TestCase):
         list = [1]
         target = 1
         result = testFunc(list, target)
-        self.assertEqual([-1, -1], result)
+        self.assertEqual([-1, 1], result)
 
     def test_two_sum_size_two_absent(self):
         list = [1,2]
@@ -40,5 +40,5 @@ class TwoSumTest(unittest.TestCase):
         self.assertEqual([-1, -1], result)
 
 if __name__ == "__main__":
-    testFunc = two_sum.twoSum
+    testFunc = two_sum_simple.twoSum
     unittest.main()
