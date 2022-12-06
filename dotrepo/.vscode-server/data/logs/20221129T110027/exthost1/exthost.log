@@ -1,0 +1,57 @@
+2022-11-29 11:00:29.290 [info] Extension host with pid 675 started
+2022-11-29 11:00:29.290 [error] Error: listen EACCES: permission denied /run/user/1000/vscode-ipc-d4b3b392-0cc2-4ba6-8d9f-003bec7f6c3e.sock
+    at Server.setupListenHandle [as _listen2] (node:net:1313:21)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1476:5)
+    at A.setup (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:94:209292)
+    at new k (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:94:209180)
+    at new A (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:94:211511)
+    at E._createInstance (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:80:1522)
+    at E.createInstance (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:80:947)
+    at h._beforeAlmostReadyToRunExtensions (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:113:65554)
+    at h.initialize (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:104:10156)
+    at new f (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:108:1332)
+    at l (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:118:19064)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-11-29 11:00:29.467 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-11-29 11:00:29.486 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-11-29 11:00:29.486 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-11-29 11:00:29.727 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-11-29 11:00:29.727 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-11-29 11:00:29.728 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-11-29 11:00:29.728 [info] Eager extensions activated
+2022-11-29 11:00:31.776 [info] Extension host terminating: received terminate message from renderer
+2022-11-29 11:00:31.788 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Object.A [as canceled] (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:102:9083
+	at Array.forEach (<anonymous>)
+	at l.dispose (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:102:9031)
+	at h.terminate (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:104:10987)
+	at f.terminate (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:108:1565)
+	at b (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:118:19113)
+	at /home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:118:17041
+	at h.invoke (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at h.invoke (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g._processReadQueue (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:32036)
+	at g.acceptFrame (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:31692)
+	at h._acceptChunk (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:29656)
+	at /home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:26841
+	at Socket.i (/home/nbellari/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+2022-11-29 11:00:31.838 [info] Extension host with pid 675 exiting with code 0

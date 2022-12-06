@@ -1,0 +1,21 @@
+Visual Studio Code (1.73.1, wsl, desktop)
+Jupyter Extension Version: 2022.9.1303220346.
+Python Extension Version: 2022.18.2.
+Workspace folder /home/nbellari/projects/python
+info 12:16:28.306: ZMQ install verified.
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 12:16:28.732: LSP Notebooks experiment is disabled -- not in treatment group
+info 12:16:28.932: Got empty env vars with python /bin/python3 in 153ms
+info 12:16:28.932: Got env vars ourselves faster /bin/python3 with env var count 35 in 155ms
+info 12:16:28.943: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 12:16:28.998: Process Execution: > /bin/python3 -c "import pip"
+> /bin/python3 -c "import pip"
+error 12:16:29.299: interpreterPackages getPackageInformation, Class name = r, completed in 522ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/bin/python3","sysPrefix":"/usr","envType":"Global","envName":"","architecture":3,"sysVersion":"3.8.10 (default, Jun 22 2022, 20:18:18) \n[GCC 9.4.0]","version":{"raw":"3.8.10","major":3,"minor":8,"patch":10,"build":[],"prerelease":["final","0"]},"displayName":"Python 3.8.10 64-bit","detailedDisplayName":"Python 3.8.10 64-bit","uri":{"$mid":1,"fsPath":"/bin/python3","external":"file:///bin/python3","path":"/bin/python3","scheme":"file"}}} [i [Error]: Module 'pip' not installed.
+	at l.execModule (/home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1303220346/out/extension.node.js:7:88752)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async r.getPackageInformation (/home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1303220346/out/extension.node.js:17:44012)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}

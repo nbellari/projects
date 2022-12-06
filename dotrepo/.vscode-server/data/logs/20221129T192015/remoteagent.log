@@ -1,0 +1,57 @@
+2022-11-29 19:20:15.094 [info] Extension host agent started.
+2022-11-29 19:20:15.495 [info] [127.0.0.1][c2096bb2][ManagementConnection] New connection established.
+2022-11-29 19:20:15.604 [info] [127.0.0.1][b3f3a9cf][ExtensionHostConnection] New connection established.
+2022-11-29 19:20:15.661 [info] [127.0.0.1][b3f3a9cf][ExtensionHostConnection] <601> Launched Extension Host Process.
+2022-11-29 19:20:48.387 [info] Getting Manifest... ms-python.python
+2022-11-29 19:20:48.439 [info] Installing extension: ms-python.python
+2022-11-29 19:20:49.532 [info] Getting Manifest... ms-toolsai.jupyter
+2022-11-29 19:20:49.883 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2022-11-29 19:20:49.919 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2022-11-29 19:20:49.947 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2022-11-29 19:20:49.972 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2022-11-29 19:20:49.997 [info] Getting Manifest... ms-python.vscode-pylance
+2022-11-29 19:20:50.027 [info] Getting Manifest... ms-python.isort
+2022-11-29 19:20:50.096 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2022-11-29 19:20:50.096 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2022-11-29 19:20:50.096 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2022-11-29 19:20:50.096 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2022-11-29 19:20:50.096 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2022-11-29 19:20:50.097 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2022-11-29 19:20:50.097 [info] Installing extension: ms-python.isort ms-python.python
+2022-11-29 19:20:50.954 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.5b2333dd-49e2-4803-9b1a-fb0b16f5504a: ms-toolsai.jupyter-keymap
+2022-11-29 19:20:50.965 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-keymap-1.0.0
+2022-11-29 19:20:50.970 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2022-11-29 19:20:50.991 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.5ecca3d8-54bd-4b7f-929a-1cfb8ac45cd5: ms-toolsai.vscode-jupyter-slideshow
+2022-11-29 19:20:50.998 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2022-11-29 19:20:51.000 [info] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+2022-11-29 19:20:51.231 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.49054c52-115e-46b2-8e3a-53b619b928a6: ms-toolsai.vscode-jupyter-cell-tags
+2022-11-29 19:20:51.236 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6
+2022-11-29 19:20:51.237 [info] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+2022-11-29 19:20:54.293 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.c43db1f5-65b1-4cc3-9c86-96d720f639b1: ms-toolsai.jupyter-renderers
+2022-11-29 19:20:54.309 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.12
+2022-11-29 19:20:54.315 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2022-11-29 19:20:55.495 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.b41713cd-b1ac-4117-883c-6eb84563ab73: ms-toolsai.jupyter
+2022-11-29 19:20:55.506 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1303220346
+2022-11-29 19:20:55.526 [info] Extracting completed. ms-toolsai.jupyter
+2022-11-29 19:20:56.881 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.ccdd3ad7-8445-428b-8885-317b82ec9564: ms-python.python
+2022-11-29 19:20:56.898 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-python.python-2022.18.2
+2022-11-29 19:20:56.908 [info] Extracting completed. ms-python.python
+2022-11-29 19:20:57.746 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.8d315bfb-3f84-4c15-81a4-531b2c375224: ms-python.isort
+2022-11-29 19:20:57.754 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-python.isort-2022.8.0
+2022-11-29 19:20:57.756 [info] Extracting completed. ms-python.isort
+2022-11-29 19:21:04.561 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.caa4bd29-8995-44bd-a791-3b69d5a5c807: ms-python.vscode-pylance
+2022-11-29 19:21:04.595 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.30
+2022-11-29 19:21:04.598 [info] Extracting completed. ms-python.vscode-pylance
+2022-11-29 19:21:04.599 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2022-11-29 19:21:04.599 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2022-11-29 19:21:04.599 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2022-11-29 19:21:04.599 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2022-11-29 19:21:04.599 [info] Extension installed successfully: ms-toolsai.jupyter
+2022-11-29 19:21:04.599 [info] Extension installed successfully: ms-python.python
+2022-11-29 19:21:04.599 [info] Extension installed successfully: ms-python.isort
+2022-11-29 19:21:04.599 [info] Extension installed successfully: ms-python.vscode-pylance
+2022-11-30 01:44:50.464 [warning] No ptyHost heartbeat after 6 seconds
+2022-11-30 01:45:23.092 [warning] No ptyHost heartbeat after 6 seconds
+2022-11-30 07:07:48.126 [info] [127.0.0.1][b3f3a9cf][ExtensionHostConnection] The client has reconnected.
+2022-11-30 07:07:48.399 [info] [127.0.0.1][c2096bb2][ManagementConnection] The client has reconnected.
+2022-11-30 15:14:00.981 [warning] No ptyHost heartbeat after 6 seconds

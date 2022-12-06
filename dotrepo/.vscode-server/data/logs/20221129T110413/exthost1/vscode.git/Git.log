@@ -1,0 +1,49 @@
+2022-11-29 11:04:18.183 [info] Validating found git in: git
+2022-11-29 11:04:18.184 [info] Using git 2.25.1 from git
+2022-11-29 11:04:18.184 [info] > git rev-parse --show-toplevel [10ms]
+2022-11-29 11:04:18.184 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.184 [info] > git rev-parse --show-toplevel [12ms]
+2022-11-29 11:04:18.184 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.184 [info] > git rev-parse --show-toplevel [2ms]
+2022-11-29 11:04:18.184 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.184 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.184 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.184 [info] > git rev-parse --show-toplevel [0ms]
+2022-11-29 11:04:18.184 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.185 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.185 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.189 [info] > git rev-parse --show-toplevel [0ms]
+2022-11-29 11:04:18.189 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.193 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.193 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.197 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.197 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.201 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.202 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.206 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.206 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.210 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.210 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.214 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.214 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.219 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.219 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.222 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 11:04:18.222 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.228 [info] > git rev-parse --show-toplevel [2ms]
+2022-11-29 11:04:18.233 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2022-11-29 11:04:18.240 [info] Log level: Info
+2022-11-29 11:04:18.241 [info] Open repository: /home/nbellari/nbellari.github.io
+2022-11-29 11:04:18.262 [info] > git rev-parse --show-toplevel [5ms]
+2022-11-29 11:04:18.262 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 11:04:18.263 [info] > git remote --verbose [16ms]
+2022-11-29 11:04:18.264 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2022-11-29 11:04:18.266 [info] > git config --get commit.template [4ms]
+2022-11-29 11:04:18.274 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2022-11-29 11:04:18.291 [info] > git status -z -uall [38ms]
+2022-11-29 11:04:18.308 [info] > git remote --verbose [8ms]
+2022-11-29 11:04:18.309 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2022-11-29 11:04:18.310 [info] > git status -z -uall [7ms]
+2022-11-29 11:04:18.311 [info] > git config --get commit.template [3ms]
+2022-11-29 11:04:18.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2022-11-29 11:04:18.798 [info] > git check-ignore -v -z --stdin [5ms]

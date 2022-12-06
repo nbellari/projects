@@ -1,0 +1,61 @@
+2022-11-29 16:36:48.624 [info] Validating found git in: git
+2022-11-29 16:36:48.624 [info] Using git 2.25.1 from git
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [39ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [0ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 16:36:48.625 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2022-11-29 16:36:48.625 [info] Log level: Info
+2022-11-29 16:36:48.625 [info] Open repository: /home/nbellari/.oh-my-zsh
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [7ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git remote --verbose [18ms]
+2022-11-29 16:36:48.625 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [4ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git config --get commit.template [17ms]
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [4ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git status -z -uall [44ms]
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [8ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git rev-parse --show-toplevel [36ms]
+2022-11-29 16:36:48.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2022-11-29 16:36:48.627 [info] > git remote --verbose [19ms]
+2022-11-29 16:36:48.629 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+2022-11-29 16:36:48.630 [info] > git rev-parse --show-toplevel [47ms]
+2022-11-29 16:36:48.630 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.646 [info] > git rev-parse --show-toplevel [9ms]
+2022-11-29 16:36:48.646 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.650 [info] > git config --get commit.template [34ms]
+2022-11-29 16:36:48.655 [info] > git status -z -uall [44ms]
+2022-11-29 16:36:48.656 [info] > git rev-parse --show-toplevel [6ms]
+2022-11-29 16:36:48.656 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.663 [info] > git rev-parse --show-toplevel [4ms]
+2022-11-29 16:36:48.663 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.667 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-29 16:36:48.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2022-11-29 16:36:48.673 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2022-11-29 16:36:48.676 [info] Log level: Info
+2022-11-29 16:36:48.676 [info] Open repository: /home/nbellari/nbellari.github.io
+2022-11-29 16:36:48.695 [info] > git status -z -uall [9ms]
+2022-11-29 16:36:48.695 [info] > git rev-parse --show-toplevel [5ms]
+2022-11-29 16:36:48.695 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.696 [info] > git remote --verbose [15ms]
+2022-11-29 16:36:48.696 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2022-11-29 16:36:48.698 [info] > git config --get commit.template [3ms]
+2022-11-29 16:36:48.727 [info] > git rev-parse --show-toplevel [2ms]
+2022-11-29 16:36:48.727 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-11-29 16:36:48.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2022-11-29 16:36:49.293 [info] > git check-ignore -v -z --stdin [10ms]
+2022-11-29 16:36:49.295 [info] > git check-ignore -v -z --stdin [4ms]

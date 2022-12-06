@@ -1,0 +1,9 @@
+Name: isort
+Module: isort
+Python extension loading
+Waiting for interpreter from python extension.
+Python extension loaded
+[ERROR 2022-10-29 19:21:6.889]: Python interpreter missing:
+[Option 1] Select python interpreter using the ms-python.python.
+[Option 2] Set an interpreter using "isort.interpreter" setting.
+

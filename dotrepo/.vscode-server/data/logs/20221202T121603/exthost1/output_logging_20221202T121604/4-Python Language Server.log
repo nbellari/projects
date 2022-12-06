@@ -1,0 +1,23 @@
+[Info  - 12:16:06 PM] (345) Pylance language server 2022.11.30 (pyright 04a10583) starting
+[Info  - 12:16:06 PM] (345) Server root directory: /home/nbellari/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.30/dist
+[Info  - 12:16:06 PM] (345) Starting service instance "python"
+[Info  - 12:16:06 PM] (345) Notebook support: LSP
+[Info  - 12:16:06 PM] (345) Interactive window support: LSP
+[Info  - 12:16:06 PM] (345) No configuration file found.
+[Info  - 12:16:06 PM] (345) No pyproject.toml file found.
+[Info  - 12:16:06 PM] (345) Setting pythonPath for service "python": "/bin/python3"
+[Warn  - 12:16:06 PM] (345) stubPath /home/nbellari/projects/python/typings is not a valid directory.
+[Info  - 12:16:06 PM] (345) Assuming Python version 3.8
+[Info  - 12:16:06 PM] (345) Assuming Python platform Linux
+[Info  - 12:16:06 PM] (345) Searching for source files
+[Info  - 12:16:06 PM] (345) Found 18 source files
+[Info  - 12:16:06 PM] (345) Background analysis(1) root directory: /home/nbellari/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.30/dist
+[Info  - 12:16:06 PM] (345) Background analysis(1) started
+[Info  - 12:16:48 PM] (345) Searching for source files
+[Info  - 12:16:48 PM] (345) Found 18 source files
+[Info  - 5:53:17 PM] (345) Searching for source files
+[Info  - 5:53:17 PM] (345) Found 19 source files
+[Info  - 12:14:11 PM] (345) Searching for source files
+[Info  - 12:14:11 PM] (345) Found 20 source files
+[Info  - 7:25:06 PM] (345) Searching for source files
+[Info  - 7:25:06 PM] (345) Found 21 source files

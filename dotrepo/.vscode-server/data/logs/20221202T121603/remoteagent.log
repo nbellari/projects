@@ -1,0 +1,80 @@
+2022-12-02 12:16:03.126 [info] Extension host agent started.
+2022-12-02 12:16:03.313 [info] [127.0.0.1][bc9f14f3][ManagementConnection] New connection established.
+2022-12-02 12:16:03.541 [info] [127.0.0.1][2cecd3a4][ExtensionHostConnection] New connection established.
+2022-12-02 12:16:03.564 [info] [127.0.0.1][2cecd3a4][ExtensionHostConnection] <263> Launched Extension Host Process.
+2022-12-02 12:18:16.653 [info] Getting Manifest... ms-python.vscode-pylance
+2022-12-02 12:22:40.018 [error] Failed to install extension. ms-python.vscode-pylance
+2022-12-02 12:22:40.026 [error] Error: connect ETIMEDOUT 192.229.232.200:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2022-12-02 12:22:46.049 [info] Downloaded extension to file:///home/nbellari/.vscode-server/data/CachedExtensionVSIXs/d1e7bb66-5b41-4e69-8404-f334c33d0871
+2022-12-02 12:22:46.084 [info] Installing extension: ms-python.python
+2022-12-02 12:22:46.084 [info] Installing the extension without checking dependencies and pack ms-python.python
+2022-12-02 12:22:46.687 [info] Deleted from disk ms-python.python /home/nbellari/.vscode-server/extensions/ms-python.python-2022.18.2
+2022-12-02 12:22:48.820 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.3425edd5-d006-4dda-aea5-9eab1e37c8d8: ms-python.python
+2022-12-02 12:22:48.841 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-python.python-2022.18.2
+2022-12-02 12:22:48.847 [info] Extracting completed. ms-python.python
+2022-12-02 12:22:48.847 [info] Extension installed successfully: ms-python.python
+2022-12-02 12:22:50.493 [info] Downloaded extension to file:///home/nbellari/.vscode-server/data/CachedExtensionVSIXs/6d665ea4-5cf4-4e79-9fe1-57b9ebf5b41a
+2022-12-02 12:22:50.519 [info] Installing extension: ms-toolsai.jupyter
+2022-12-02 12:22:50.519 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter
+2022-12-02 12:22:50.981 [info] Deleted from disk ms-toolsai.jupyter /home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1303220346
+2022-12-02 12:22:51.694 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.143a152b-8bc8-4d42-8b97-7aceb098b07a: ms-toolsai.jupyter
+2022-12-02 12:22:51.714 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-2022.9.1303220346
+2022-12-02 12:22:51.731 [info] Extracting completed. ms-toolsai.jupyter
+2022-12-02 12:22:51.731 [info] Extension installed successfully: ms-toolsai.jupyter
+2022-12-02 12:22:51.956 [info] Downloaded extension to file:///home/nbellari/.vscode-server/data/CachedExtensionVSIXs/a830d33a-3ea0-4221-bbf4-9c9b71477b07
+2022-12-02 12:22:51.993 [info] Installing extension: ms-python.isort
+2022-12-02 12:22:51.993 [info] Installing the extension without checking dependencies and pack ms-python.isort
+2022-12-02 12:22:52.387 [info] Deleted from disk ms-python.isort /home/nbellari/.vscode-server/extensions/ms-python.isort-2022.8.0
+2022-12-02 12:22:52.704 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.c52ee28c-0c2f-4bab-a6c0-bd31046b38de: ms-python.isort
+2022-12-02 12:22:52.712 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-python.isort-2022.8.0
+2022-12-02 12:22:52.714 [info] Extracting completed. ms-python.isort
+2022-12-02 12:22:52.715 [info] Extension installed successfully: ms-python.isort
+2022-12-02 12:22:53.564 [info] Downloaded extension to file:///home/nbellari/.vscode-server/data/CachedExtensionVSIXs/be1def85-406d-402d-9bdc-d423127f9b16
+2022-12-02 12:22:53.584 [info] Installing extension: ms-toolsai.jupyter-renderers
+2022-12-02 12:22:53.584 [info] Installing the extension without checking dependencies and pack ms-toolsai.jupyter-renderers
+2022-12-02 12:22:53.924 [info] Deleted from disk ms-toolsai.jupyter-renderers /home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.12
+2022-12-02 12:22:54.342 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.3685b085-463b-48c4-8a8f-a632c4c05fec: ms-toolsai.jupyter-renderers
+2022-12-02 12:22:54.349 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.12
+2022-12-02 12:22:54.351 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2022-12-02 12:22:54.352 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2022-12-02 12:22:54.476 [info] Downloaded extension to file:///home/nbellari/.vscode-server/data/CachedExtensionVSIXs/65cd5950-e4d4-4617-af3d-f58724cafa45
+2022-12-02 12:22:54.481 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags
+2022-12-02 12:22:54.482 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-cell-tags
+2022-12-02 12:22:54.863 [info] Deleted from disk ms-toolsai.vscode-jupyter-cell-tags /home/nbellari/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6
+2022-12-02 12:22:54.889 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.03e2f515-1a46-4893-ab5c-0e5e1cadef90: ms-toolsai.vscode-jupyter-cell-tags
+2022-12-02 12:22:54.895 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6
+2022-12-02 12:22:54.896 [info] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+2022-12-02 12:22:54.896 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2022-12-02 12:22:55.007 [info] Downloaded extension to file:///home/nbellari/.vscode-server/data/CachedExtensionVSIXs/76578780-d400-4e21-b4a1-e36e97a39857
+2022-12-02 12:22:55.012 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow
+2022-12-02 12:22:55.012 [info] Installing the extension without checking dependencies and pack ms-toolsai.vscode-jupyter-slideshow
+2022-12-02 12:22:55.370 [info] Deleted from disk ms-toolsai.vscode-jupyter-slideshow /home/nbellari/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2022-12-02 12:22:55.406 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.823c85d4-7ec4-42d9-89a0-8ac7d778772c: ms-toolsai.vscode-jupyter-slideshow
+2022-12-02 12:22:55.411 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2022-12-02 12:22:55.413 [info] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+2022-12-02 12:22:55.413 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2022-12-02 12:22:57.704 [info] Downloaded extension to file:///home/nbellari/.vscode-server/data/CachedExtensionVSIXs/90425014-debc-4f72-8166-8f63fd1b0cc5
+2022-12-02 12:22:58.171 [info] Installing extension: ms-python.vscode-pylance
+2022-12-02 12:22:58.171 [info] Installing the extension without checking dependencies and pack ms-python.vscode-pylance
+2022-12-02 12:23:02.318 [info] Extracted extension to /home/nbellari/.vscode-server/extensions/.58e802e9-6143-47ee-86f8-bf0faaa1fc88: ms-python.vscode-pylance
+2022-12-02 12:23:02.337 [info] Renamed to /home/nbellari/.vscode-server/extensions/ms-python.vscode-pylance-2022.11.40
+2022-12-02 12:23:02.342 [info] Extracting completed. ms-python.vscode-pylance
+2022-12-02 12:23:02.342 [info] Extension installed successfully: ms-python.vscode-pylance
+2022-12-03 03:29:34.330 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-03 05:37:52.778 [info] [127.0.0.1][bc9f14f3][ManagementConnection] The client has reconnected.
+2022-12-03 05:37:52.925 [info] [127.0.0.1][2cecd3a4][ExtensionHostConnection] The client has reconnected.
+2022-12-03 14:50:55.678 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-04 09:27:16.675 [info] [127.0.0.1][bc9f14f3][ManagementConnection] The client has reconnected.
+2022-12-04 09:27:16.754 [info] [127.0.0.1][2cecd3a4][ExtensionHostConnection] The client has reconnected.
+2022-12-04 12:11:14.640 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-04 13:18:04.007 [info] [127.0.0.1][bc9f14f3][ManagementConnection] The client has reconnected.
+2022-12-04 13:18:04.204 [info] [127.0.0.1][2cecd3a4][ExtensionHostConnection] The client has reconnected.
+2022-12-05 01:48:27.303 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-05 01:48:44.664 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-05 09:46:33.262 [info] [127.0.0.1][2cecd3a4][ExtensionHostConnection] The client has reconnected.
+2022-12-05 09:46:33.389 [info] [127.0.0.1][bc9f14f3][ManagementConnection] The client has reconnected.
+2022-12-06 03:12:19.770 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-06 03:12:38.176 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-06 09:13:23.702 [info] [127.0.0.1][2cecd3a4][ExtensionHostConnection] The client has reconnected.
+2022-12-06 09:13:23.847 [info] [127.0.0.1][bc9f14f3][ManagementConnection] The client has reconnected.
