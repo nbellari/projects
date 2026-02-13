@@ -4,6 +4,7 @@
 *.so
 *.o
 a.out
+*.exe
 
 # Packages
 *.egg
@@ -41,3 +42,5 @@ __pycache__
 
 # Rust related
 target
+
+.DS_Store
